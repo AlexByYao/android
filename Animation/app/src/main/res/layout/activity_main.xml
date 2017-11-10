@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.alex.animation.MainActivity">
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        android:background="@mipmap/accessibility_super_guide_hand"
+        android:id="@+id/animation" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/color_text_backgroud"
+        android:layout_marginTop="@dimen/textview_margin_top"
+        android:layout_marginLeft="@dimen/textview_margin_left"
+        android:textSize="@dimen/textview_textsize"
+        android:textColor="@color/color_text_animation"
+        android:id="@+id/alpha"
+        android:text="@string/animation_text_alpha" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/color_text_backgroud"
+        android:layout_below="@+id/alpha"
+        android:layout_marginTop="@dimen/textview_margin_top"
+        android:layout_marginLeft="@dimen/textview_margin_left"
+        android:textSize="@dimen/textview_textsize"
+        android:textColor="@color/color_text_animation"
+        android:id="@+id/scale"
+        android:text="@string/animation_text_scale" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/color_text_backgroud"
+        android:layout_below="@+id/scale"
+        android:layout_marginTop="@dimen/textview_margin_top"
+        android:layout_marginLeft="@dimen/textview_margin_left"
+        android:textSize="@dimen/textview_textsize"
+        android:textColor="@color/color_text_animation"
+        android:id="@+id/translate"
+        android:text="@string/animation_text_translate" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/color_text_backgroud"
+        android:layout_below="@+id/translate"
+        android:layout_marginTop="@dimen/textview_margin_top"
+        android:layout_marginLeft="@dimen/textview_margin_left"
+        android:textSize="@dimen/textview_textsize"
+        android:textColor="@color/color_text_animation"
+        android:id="@+id/rotate"
+        android:text="@string/animation_text_rotate" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/color_text_backgroud"
+        android:layout_below="@+id/rotate"
+        android:layout_marginTop="@dimen/textview_margin_top"
+        android:layout_marginLeft="@dimen/textview_margin_left"
+        android:textSize="@dimen/textview_textsize"
+        android:textColor="@color/color_text_animation"
+        android:id="@+id/set"
+        android:text="@string/animation_text_set" />
+
+
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Animation</string>
+    <string name="animation_text_alpha">Alpha</string>
+    <string name="animation_text_scale">Scale</string>
+    <string name="animation_text_translate">Translate</string>
+    <string name="animation_text_rotate">Rotate</string>
+    <string name="animation_text_set">Set</string>
+</resources>
